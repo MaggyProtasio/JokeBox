@@ -1,0 +1,148 @@
+/* global */
+
+html,body {
+    color: white;
+    font-family: 'Sora', sans-serif;
+    cursor: none;
+}
+
+a:hover , button:hover {
+    cursor: none;
+}
+
+::selection {
+	color: white;
+	background-color:rgb(75, 214, 63);
+}
+
+.logo-icon {
+    width: 50px;
+    height: auto;
+}
+
+#circular-cursor {
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);    
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.gradient-bg {
+    background: linear-gradient(90deg, rgba(121, 39, 254, 0.925) 0%, rgba(255, 166, 22, 0.941) 100%) 0% 0% / 400% 400%;             
+    animation: 25s ease 0s infinite normal none running gradient;
+    height: 100%;
+    width: auto;
+}
+
+.main-box {
+    background-color: rgba(255, 255, 255, 0.132);
+    border-radius: 50px;
+    border: 0px solid white;
+}
+
+@media screen and (max-width: 576px) {
+    .main-box {
+      border-radius: 0px;
+    }
+    #circular-cursor {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+/* left column 
+----------------------------------*/
+
+.title-text {
+    font-size: calc(1.5rem + 5vw);
+    line-height: 1;
+}
+
+.title-text p {
+    margin: 0;
+}
+
+.animate__fadeInUp:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.animate__fadeInUp:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.animate__fadeInUp:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.text-stroke {
+    -webkit-text-stroke:1px rgb(255, 255, 255);
+    -webkit-text-fill-color:transparent;
+}
+
+.normal-title {
+    -webkit-text-stroke:1px rgb(255, 255, 255);
+    -webkit-text-fill-color:white;
+}
+
+hr {
+    width: 70%;
+    background-color: white;
+    opacity: 1;
+}
+
+.hr1{
+    margin-left: -40%;
+}
+
+.hr2 {
+    margin-left: -48%;
+}
+
+/* right column 
+-----------------------------------*/
+
+.generate-btn {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: ease 0.3s;
+}
+
+.generate-btn:hover {
+    background-color:rgb(75, 214, 63);
+}
+
+#joke-box {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* animations
+------------------------------------ */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+};
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+};
