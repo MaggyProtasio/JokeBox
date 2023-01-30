@@ -7,7 +7,7 @@
   <h3>Modern responsive website that generates CS jokes using JokeAPI</h3>
   <p>Check it out to have a laugh :) </p>
   <a href="https://maggyprotasio.github.io/JokeBox/">
-      <img src="src/screenshot1.png">
+      <img src="src/screenshot2.png">
   </a>
   
 </div>
