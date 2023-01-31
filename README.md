@@ -4,8 +4,8 @@
       <img src="src/logo.png" alt="JokeBox Icon" height="28px">
       <a href="https://maggyprotasio.github.io/JokeBox/">JokeBox</a>
   </h1>
-<a href="https://www.triumphmayflowerclub.com/news/2018/03/launchofthenewclubwebsite">
-            <img src="https://img.shields.io/badge/launched-march%202018-teal">
+<a href="https://maggyprotasio.github.io/JokeBox/">
+            <img src="https://img.shields.io/badge/launched-January%202023-teal">
         </a>
   <h3>Modern responsive website that generates CS jokes using JokeAPI</h3>
   <p>Check it out to have a laugh :) </p>
