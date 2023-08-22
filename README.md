@@ -7,7 +7,7 @@
   <a href="https://maggyprotasio.github.io/JokeBox/">
       <img src="https://img.shields.io/badge/Created-June%202022-darkviolet">
    </a>
-  <h3>Modern responsive website that generates CS jokes using JokeAPI</h3>
+  <h3>Computer Science joke generator using JokeAPI</h3>
   <p>Check it out to have a laugh :) </p>
   <a href="https://maggyprotasio.github.io/JokeBox/">
       <img src="src/screenshot1.jpg">
